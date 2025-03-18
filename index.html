@@ -1,8 +1,23 @@
-<!-- 底部加了小鱼<・)))><<~ -->
-  <div id="jsi-flying-fish-container" class="container"></div>
-  <script src='https://files.cnblogs.com/files/blogs/409706/BLOG_fish.js'></script>
-  <style>
-  @media only screen and (max-width: 767px){
-  #sidebar_search_box input[type=text]{width:calc(100% - 24px)}
-  }
-  </style>
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的网页</title>
+    <style>
+        @media only screen and (max-width: 767px) {
+            /* 如果你的页面上确实有这个搜索框，保留这个样式 */
+            #sidebar_search_box input[type=text] {
+                width: calc(100% - 24px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>欢迎来到我的网页</h1>
+    <div id="jsi-flying-fish-container" class="container"></div>
+    <script src='https://files.cnblogs.com/files/blogs/409706/BLOG_fish.js'></script>
+    <!-- 如果小鱼动画脚本不可用，考虑替换或删除上面的<script>标签 -->
+</body>
+</html>
